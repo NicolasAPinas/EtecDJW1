@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeira página</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 
 <body>
@@ -13,17 +14,31 @@
         <nav>
             <h1>Nicolas</h1>
             <ul>
-                <li><a href="#index.html">HOME</a></li>
-                <li><a href="#sobre.html">SOBRE</a></li>
-                <li><a href="#contato.html">CONTATO</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <img src="img/sua-foto-aqui.jpg" alt="Foto">
-            <p> Entre em contato se precisar</p>
+            @nkzeeen
+        </section>
+        <section>
+            <h1>Entre em contato</h1>
+            <form action="">
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" id="nome">
 
+                <label for="Telefone">Telefone</label>
+                <input type="number" name="Telefone" id="Telefone">
+
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email">
+
+                <textarea name="msg" id="msg"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
