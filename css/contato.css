@@ -3,11 +3,10 @@ main {
     margin: 0 auto;
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 section {
-    border: 1px solid gainsboro;
-    height: 100px;
     flex-grow: 1;
     background-color: whitesmoke;
     padding: 40px;
@@ -18,12 +17,11 @@ section h1 {
     font-size: 30px;
     padding-bottom: 30px;
     padding: 30px;
-    color: ghostwhite;
+    color: black;
     font-weight: lighter;
 }
 
 form {
-    border: 1px solid;
     color: #333;
     flex-direction: column;
 }
@@ -34,4 +32,37 @@ label {
 }
 input, textarea {
     display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: saddlebrown;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+section p {
+    color: gray;
+    margin: 10px 0;
+}
+
+#privacidade {
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+section h2 {
+    font-size: 23px;
+    color: gray;
+
+}
+section img {
+    max-width: 40px;
 }
